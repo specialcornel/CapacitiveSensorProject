@@ -2,7 +2,7 @@
 
 // Define sensor and LED pin constants
 CapacitiveSensor sensor = CapacitiveSensor(4, 2);  // 2MΩ resistor between pins 4 & 2
-const int ledPin = 9;  // Pin for the LED
+const int ledPin = 9;  // Pin for the LED//between pin 9 and LED put a 10 ohm resistor
 const int threshold = 200;  // Adjust this value based on your sensor readings
 
 void setup() {
